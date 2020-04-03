@@ -1,0 +1,194 @@
+@media (max-width: 1024px) {
+    .slider-nav{
+        display: none;
+    }
+}
+@media (max-width: 995px) {
+    .works-line {
+        width: 80%;
+    }
+
+    .recent-works-content {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .works-box {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .slick-next::before {
+        display: none;
+    }
+    .slick-prev::before {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    .footer-inner {
+        background-color: #e8663c;
+        position: relative;
+        padding: 29px 10px 25px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-inner-box.twidget {
+        padding-left: 10px;
+    }
+
+    .recent-works {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 855px) {
+    .about-us-text {
+        font-size: 15px;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-inner-box {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+
+    .footer p {
+        width: 600px;
+    }
+
+    .footer-inner .footer-inner-box+.footer-inner-box {
+        margin: 0px auto 30px;
+    }
+
+    .social-media-box {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 760px) {
+    .header-menu-btn {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: 20px;
+    }
+
+    .main-menu {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 78px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .main-menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu li+li {
+        margin-left: 0px;
+    }
+
+    .main-menu li {
+        padding: 0px 0px;
+    }
+
+    .main-menu a {
+        padding: 15px 0px;
+        display: block;
+    }
+
+    .header__menu a:hover {
+        border-top: 2px solid #e8663c;
+        border-bottom: 2px solid #e8663c;
+    }
+
+    .about-us-inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-box {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .about-us-box p {
+        max-width: 100%;
+    }
+
+    .about-us-text {
+        padding: 52px 0 0 70px;
+    }
+}
+
+@media (max-width: 680px) {
+    .slick-track {
+        width: 100%;
+    }
+
+    .works-line {
+        width: 70%;
+    }
+
+    .footer-inner-box {
+        max-width: 400px;
+    }
+
+    .footer p {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .slider-text {
+        max-width: 90%;
+    }
+
+    .works-line {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-inner-box {
+        max-width: 250px;
+    }
+
+    .footer p {
+        width: 250px;
+    }
+}
+
+@media (max-width: 393px) {
+    .marc-icon::before {
+        top: 54px;
+    }
+
+    .user-icon::before {
+        top: 58px;
+    }
+}
+
+@media (max-width: 365px) {
+    .slider-text {
+        padding: 10px;
+    }
+
+    .sixpaw-icon::before {
+        top: 54px;
+    }
+}
+
